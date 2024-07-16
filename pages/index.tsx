@@ -26,7 +26,7 @@ export default function Home(props: Props) {
         <div className="space-y-3">
           {props.blogs.map((blog) => (
             <Link href={`/${blog.id}`} key={blog.id}>
-              <div className="space-y-2 w-full bg-white p-5 shadow rounded">
+              <div className="space-y-2 w-full bg-white p-5 shadow rounded text-black">
                 <h4 className="text-lg font-semibold">{blog.title}</h4>
                 <p>{new Date(blog.createdAt).toISOString()}</p>
               </div>
