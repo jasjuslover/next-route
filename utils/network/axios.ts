@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://6695b4e10312447373bfd91c.mockapi.io",
 });
 
 export { api };
